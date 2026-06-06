@@ -1,0 +1,22 @@
+{
+  "spec": "openpharm.sync.manifest.v1",
+  "channel": "drug_master",
+  "keyId": "operator-2026-05",
+  "latest": "2026-06-05.r1",
+  "minSupported": "2026-06-05.r1",
+  "published": "2026-06-07T00:31:09+09:00",
+  "signature": "ed25519:61CJW5r4cHpw0ANXIX9NdJOvdqHViZ5wPHROEuvB6EZWjVQguiCKvTat7R5Hm+aetgok3/00uSJquhd30E7sAQ==",
+  "snapshots": [
+    {
+      "version": "2026-06-05.r1",
+      "effectiveFrom": "2026-06-05",
+      "publishedAt": "2026-06-07T00:31:09+09:00",
+      "size": 672343,
+      "hash": "sha256:56686cd24f54254fed27a243d25fd2e07e394ec73a402e485f4d132b175af1f3",
+      "url": "snapshots/2026-06-05.r1.jsonl.zst",
+      "prevVersion": null,
+      "prevHash": null
+    }
+  ],
+  "deltas": []
+}
