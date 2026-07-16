@@ -1,11 +1,11 @@
 {
   "spec": "openpharm.sync.manifest.v1",
   "channel": "drug_master",
-  "keyId": "operator-2026-05",
+  "keyId": "operator-2026-07",
   "latest": "2026-06-05.r1",
   "minSupported": "2026-06-05.r1",
   "published": "2026-06-07T00:31:09+09:00",
-  "signature": "ed25519:61CJW5r4cHpw0ANXIX9NdJOvdqHViZ5wPHROEuvB6EZWjVQguiCKvTat7R5Hm+aetgok3/00uSJquhd30E7sAQ==",
+  "signature": "ed25519:6Um9/143je4dM0uis8dY2s6bkEPQMAQQx0QNAJfbP5hHbMlV7tZ3EuIGdsHfphB1wU7H9Ms/P4oo2SFlEQOBBg==",
   "snapshots": [
     {
       "version": "2026-06-05.r1",

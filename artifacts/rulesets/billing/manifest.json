@@ -1,11 +1,11 @@
 {
   "spec": "openpharm.sync.manifest.v1",
   "channel": "rulesets/billing",
-  "keyId": "operator-2026-05",
+  "keyId": "operator-2026-07",
   "latest": "2026-05-01.r1",
   "minSupported": "2026-05-01.r1",
   "published": "2026-05-15T14:23:13+09:00",
-  "signature": "ed25519:/KU99wkeq0z3tUPTyihfpsfOIMrkdoXfxJkvITImZtI66emQ1NP9NDZ59gNVtREFczCLy73X8DHZz9A/xdTbBQ==",
+  "signature": "ed25519:I+zwMEgNWuaIoTkR9yadKyrPspgGdChn74RvhstTlK4NwC4OiKzvgLmDgysy0sIwWY6eec8uUFk6P5eKGv3GAQ==",
   "snapshots": [
     {
       "version": "2026-05-01.r1",

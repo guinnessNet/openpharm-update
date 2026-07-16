@@ -1,0 +1,69 @@
+# deploy-pages.yml — 정책 채널 GitHub Pages 배포 (POLICY_SYNC_WORKFLOW_V1 의 verify-and-deploy 구현)
+#
+# main 에 push 될 때마다 발행물(artifacts/)을 클라이언트(op sync all)가 기대하는
+# 배포 레이아웃으로 변환해 Pages 로 서빙한다:
+#   <도메인>/revocation.json            ← repo 루트의 revocation.json
+#   <도메인>/sync/<pathSlug>/…          ← artifacts/<pathSlug>/… 복사
+# 커스텀 도메인: policy.maipharm.com (repo Settings → Pages 에서 지정, CNAME 파일 불필요)
+#
+# 신뢰는 서빙 계층이 아니라 서명(root→operator ed25519 + sha256 체인)에서 나온다 —
+# Pages 는 정적 파일만 서빙하며, 위·변조본은 클라이언트가 fail-closed 로 거부한다.
+name: deploy-pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 배포 레이아웃 구성 (artifacts → sync, revocation 루트 배치)
+        run: |
+          mkdir -p _site/sync
+          cp revocation.json _site/revocation.json
+          cp -r artifacts/. _site/sync/
+          # 배포 확인용 인덱스(사람용) — 클라이언트는 사용하지 않는다.
+          {
+            echo "openpharm policy channel"
+            echo "deployed: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            echo "commit: ${GITHUB_SHA}"
+          } > _site/index.txt
+
+      - name: 무결성 사전점검 (manifest·revocation 존재 + JSON 파싱)
+        run: |
+          python3 - <<'EOF'
+          import json, sys, pathlib
+          root = pathlib.Path('_site')
+          rv = json.load(open(root/'revocation.json'))
+          assert rv['spec'] == 'openpharm.sync.revocation.v1', 'revocation spec mismatch'
+          assert rv.get('signature','').startswith('ed25519:'), 'revocation signature missing'
+          manifests = list(root.glob('sync/**/manifest.json'))
+          assert manifests, 'no manifests found'
+          for m in manifests:
+              d = json.load(open(m))
+              assert d.get('signature','').startswith('ed25519:'), f'unsigned manifest: {m}'
+          print(f'ok: revocation + {len(manifests)} manifests')
+          EOF
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@v4

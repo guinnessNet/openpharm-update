@@ -1,11 +1,11 @@
 {
   "spec": "openpharm.sync.manifest.v1",
   "channel": "drug_prices",
-  "keyId": "operator-2026-05",
+  "keyId": "operator-2026-07",
   "latest": "2026-06-01.r1",
   "minSupported": "2026-06-01.r1",
   "published": "2026-06-10T00:57:12+09:00",
-  "signature": "ed25519:zOG+JbO3pXR5ffhRrepsLTnFMpPylNnXX24ph4y/DLE5xQ+nQIs1/9BHjY3BTY1QOCttBWYQz70jRga8GmQaDw==",
+  "signature": "ed25519:zqtsrAbiKoTWKCZa48LBcc5Q3m3/Ph7WXMuHEiolSVbCI9LLT7wsXvr2WuVFlSChNZDc0RvRmtVph1KEj4n9Dg==",
   "snapshots": [
     {
       "version": "2026-06-01.r1",

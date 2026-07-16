@@ -1,14 +1,22 @@
 {
   "spec": "openpharm.sync.revocation.v1",
-  "publishedAt": "2026-05-29T15:18:43+09:00",
-  "expiresAt": "2026-06-28T15:18:43+09:00",
-  "revokedOperatorKeys": [],
-  "trustedOperatorKeys": [
+  "publishedAt": "2026-07-16T09:00:00+09:00",
+  "expiresAt": "2026-08-15T09:00:00+09:00",
+  "revokedOperatorKeys": [
     {
       "keyId": "operator-2026-05",
       "publicKey": "ed25519:wtUk7Br3J//IbPla31dt7i1K0PIeCGIahdzE4hZ9ltg=",
-      "validFrom": "2026-05-01T00:00:00+09:00"
+      "reason": "private key lost; rotated before any pharmacy deployment",
+      "revokedAt": "2026-07-16T00:00:00+09:00",
+      "supersededBy": "operator-2026-07"
     }
   ],
-  "signature": "ed25519:DEiScaXAO3VYr5qsNxt/U8C9gGBgTf2hnw0tA5lsr4DnZupen+Pa3YzDhyDibLzAUXZb2pJLw7Y11x5dnKzvAw=="
+  "trustedOperatorKeys": [
+    {
+      "keyId": "operator-2026-07",
+      "publicKey": "ed25519:ahXwEYpOi27QI8R4IKBQR1xj2i6FzDbtPzuEuauJyr8=",
+      "validFrom": "2026-07-16T00:00:00+09:00"
+    }
+  ],
+  "signature": "ed25519:MKbr2dfL8oR4E88cGqrkEl12AW5zRic7Radcq2+ruEv+vCd6ri7pkKP1CEkRMW35+NrZ5tbrQH3STC0O2hFZDQ=="
 }

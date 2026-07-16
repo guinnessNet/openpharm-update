@@ -1,11 +1,11 @@
 {
   "spec": "openpharm.sync.manifest.v1",
   "channel": "fee_schedules",
-  "keyId": "operator-2026-05",
+  "keyId": "operator-2026-07",
   "latest": "2026-05-01.r1",
   "minSupported": "2026-05-01.r1",
   "published": "2026-05-15T14:38:14+09:00",
-  "signature": "ed25519:SUlnavcrVhtORufGFBDX8ZjHV4dtSuFtUnN3aeLjtjcOp2GNaNuE84H0FSeZqppavA3WMHJQxNwoHeXLgzhFBA==",
+  "signature": "ed25519:7ovnXv75iq/PoTLzpYXWQfD44OTgwBMWLp0B9/pQiMBL95iGWd4XsmpvKUeRyRhcRkouHNrWDXmrFomQI7mFDg==",
   "snapshots": [
     {
       "version": "2026-05-01.r1",
