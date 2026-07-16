@@ -2,15 +2,25 @@
   "spec": "openpharm.sync.manifest.v1",
   "channel": "drug_prices",
   "keyId": "operator-2026-07",
-  "latest": "2026-06-01.r1",
-  "minSupported": "2026-06-01.r1",
-  "published": "2026-06-10T00:57:12+09:00",
-  "signature": "ed25519:zqtsrAbiKoTWKCZa48LBcc5Q3m3/Ph7WXMuHEiolSVbCI9LLT7wsXvr2WuVFlSChNZDc0RvRmtVph1KEj4n9Dg==",
+  "latest": "2026-07-01.r1",
+  "minSupported": "2026-07-01.r1",
+  "published": "2026-07-16T12:21:45+09:00",
+  "signature": "ed25519:kc2j9Bhj4ZStrEEqLH0Q2YspMbGODW/uOBq7R3/CMYD6kdgJOQDupfkO9rMYE5FoRWXwSgvGLaeSGH2tw7vvAA==",
   "snapshots": [
+    {
+      "version": "2026-07-01.r1",
+      "effectiveFrom": "2026-07-01",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
+      "size": 354154,
+      "hash": "sha256:663eb50427dab9bb525de4c285feb3b362dbb6cf2802e7bd741e5de6938cd124",
+      "url": "snapshots/2026-07-01.r1.jsonl.zst",
+      "prevVersion": "2026-06-01.r1",
+      "prevHash": "sha256:3bd3206c8d7d617000ea2cb6db98165d11c21c5c41e67849a20364ce8ef67661"
+    },
     {
       "version": "2026-06-01.r1",
       "effectiveFrom": "2026-06-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 495053,
       "hash": "sha256:3bd3206c8d7d617000ea2cb6db98165d11c21c5c41e67849a20364ce8ef67661",
       "url": "snapshots/2026-06-01.r1.jsonl.zst",
@@ -20,7 +30,7 @@
     {
       "version": "2026-05-01.r1",
       "effectiveFrom": "2026-05-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 357897,
       "hash": "sha256:9d3b57e6d0d7b4a8f55bac39fe3b183b6dcc7376bb3f30d30a3bc2ad3f06cb84",
       "url": "snapshots/2026-05-01.r1.jsonl.zst",
@@ -30,7 +40,7 @@
     {
       "version": "2026-04-01.r1",
       "effectiveFrom": "2026-04-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 358029,
       "hash": "sha256:689a20e811752f46035932fb2f6c8bcb5c23948f07c3ee9b7185196bc8d0828a",
       "url": "snapshots/2026-04-01.r1.jsonl.zst",
@@ -40,7 +50,7 @@
     {
       "version": "2026-03-01.r1",
       "effectiveFrom": "2026-03-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 356970,
       "hash": "sha256:5e6381829d9708d8c92dd0f326b3d6e26b1a1c02d1349fae0f8e40756b2c3ee2",
       "url": "snapshots/2026-03-01.r1.jsonl.zst",
@@ -50,7 +60,7 @@
     {
       "version": "2026-02-01.r1",
       "effectiveFrom": "2026-02-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 356506,
       "hash": "sha256:987afac2c4b9ada4eacc557b803a1362dbe1d97fdfdda09bbae58ac0c3a3db79",
       "url": "snapshots/2026-02-01.r1.jsonl.zst",
@@ -60,7 +70,7 @@
     {
       "version": "2026-01-01.r1",
       "effectiveFrom": "2026-01-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 356246,
       "hash": "sha256:72bc122044c4c9c4d9db2e5b4b6a3120a47fd73885172f2726ca953460f9cb91",
       "url": "snapshots/2026-01-01.r1.jsonl.zst",
@@ -70,7 +80,7 @@
     {
       "version": "2025-12-01.r1",
       "effectiveFrom": "2025-12-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 354728,
       "hash": "sha256:32fe00ab8eb2633ca015bf8866b045789f212ff50c32edbb985283929aa1b9d3",
       "url": "snapshots/2025-12-01.r1.jsonl.zst",
@@ -80,7 +90,7 @@
     {
       "version": "2025-11-01.r1",
       "effectiveFrom": "2025-11-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 354632,
       "hash": "sha256:c04111111ea6b908ec4e43b8864ab6ea4257b407c260555fc11c34c2911fcba7",
       "url": "snapshots/2025-11-01.r1.jsonl.zst",
@@ -90,7 +100,7 @@
     {
       "version": "2025-10-01.r1",
       "effectiveFrom": "2025-10-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 363470,
       "hash": "sha256:0c1fd6b6f8872226012530f984235b6d06dad1a46d2db3e9cdef3ed61e67b419",
       "url": "snapshots/2025-10-01.r1.jsonl.zst",
@@ -100,7 +110,7 @@
     {
       "version": "2025-09-01.r1",
       "effectiveFrom": "2025-09-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 359367,
       "hash": "sha256:4b82eaf3e6f24e3cc2de9466a288de975e4f276d6838decdc48ef5b92263649b",
       "url": "snapshots/2025-09-01.r1.jsonl.zst",
@@ -110,7 +120,7 @@
     {
       "version": "2025-08-01.r1",
       "effectiveFrom": "2025-08-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 358622,
       "hash": "sha256:f1b5a57978db136eb98c2d7b539fb5a7ea10240d63d6cdb9a4a27c9c5fef1fa5",
       "url": "snapshots/2025-08-01.r1.jsonl.zst",
@@ -120,7 +130,7 @@
     {
       "version": "2025-07-01.r2",
       "effectiveFrom": "2025-07-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 360194,
       "hash": "sha256:1222db161f5b028989bf6e33504cfa7f25ee56849566618fbc10e15e25c06812",
       "url": "snapshots/2025-07-01.r2.jsonl.zst",
@@ -130,7 +140,7 @@
     {
       "version": "2025-07-01.r1",
       "effectiveFrom": "2025-07-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 359613,
       "hash": "sha256:03b9df4ad4787d957b42aaebb5e7f9069e35775afab8118d390ba3ba7bf2f29d",
       "url": "snapshots/2025-07-01.r1.jsonl.zst",
@@ -140,7 +150,7 @@
     {
       "version": "2025-06-01.r1",
       "effectiveFrom": "2025-06-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 359157,
       "hash": "sha256:9343fbd50f5568f28a61c33dd8ccc5239e80689be48b68479eb3d6273570a15a",
       "url": "snapshots/2025-06-01.r1.jsonl.zst",
@@ -150,7 +160,7 @@
     {
       "version": "2025-05-01.r1",
       "effectiveFrom": "2025-05-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 358155,
       "hash": "sha256:910a0dc34a6a6044ac1b2fb0ff78828ffac39f2d9e745a2b6852d3084b277d21",
       "url": "snapshots/2025-05-01.r1.jsonl.zst",
@@ -160,7 +170,7 @@
     {
       "version": "2025-04-01.r1",
       "effectiveFrom": "2025-04-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 359951,
       "hash": "sha256:a62eea6badf5e7e8c76ca9c7d2d5da234db37245e5308fac713a3fd0b2634a30",
       "url": "snapshots/2025-04-01.r1.jsonl.zst",
@@ -170,7 +180,7 @@
     {
       "version": "2025-03-04.r1",
       "effectiveFrom": "2025-03-04",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 360131,
       "hash": "sha256:32dcc0305eaf1daaade8572bb486affa04c902c9c7eca1d03ed8d4a5b083e5cc",
       "url": "snapshots/2025-03-04.r1.jsonl.zst",
@@ -180,7 +190,7 @@
     {
       "version": "2025-03-01.r1",
       "effectiveFrom": "2025-03-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 360046,
       "hash": "sha256:8017d2c51adf936df2f2e6b21dfbbae2441fb421cf5bd7685018712248c40534",
       "url": "snapshots/2025-03-01.r1.jsonl.zst",
@@ -190,7 +200,7 @@
     {
       "version": "2025-02-01.r1",
       "effectiveFrom": "2025-02-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 359504,
       "hash": "sha256:8c9d6222de8ee55528fcba17e428beab134dcaeaea15a1b36e65f32711f07ef0",
       "url": "snapshots/2025-02-01.r1.jsonl.zst",
@@ -200,7 +210,7 @@
     {
       "version": "2025-01-01.r1",
       "effectiveFrom": "2025-01-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 359301,
       "hash": "sha256:c141a4fa9f0f8d549af65ad65702a589c0f04226050c4b2f7e2a18101afd4483",
       "url": "snapshots/2025-01-01.r1.jsonl.zst",
@@ -210,7 +220,7 @@
     {
       "version": "2024-12-01.r1",
       "effectiveFrom": "2024-12-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 359488,
       "hash": "sha256:00b3e94eb2aef165f0a232905a5f37fd3db7913d2ec874f28b958332e76ca105",
       "url": "snapshots/2024-12-01.r1.jsonl.zst",
@@ -220,7 +230,7 @@
     {
       "version": "2024-11-01.r1",
       "effectiveFrom": "2024-11-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 358824,
       "hash": "sha256:64cf440a0d2bcd088a94f9c9ca7c2faf121adeca28e8546480d687b273b46dce",
       "url": "snapshots/2024-11-01.r1.jsonl.zst",
@@ -230,7 +240,7 @@
     {
       "version": "2024-10-01.r1",
       "effectiveFrom": "2024-10-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 373657,
       "hash": "sha256:231256994acb35c1fe5932b9bfed52016215b604de61e620d96df74a68fb0c52",
       "url": "snapshots/2024-10-01.r1.jsonl.zst",
@@ -240,7 +250,7 @@
     {
       "version": "2024-09-01.r1",
       "effectiveFrom": "2024-09-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 373777,
       "hash": "sha256:63175fb64c953f1b9e2e42d65c991f335f9d95c87c833aeef0a9b55634fadece",
       "url": "snapshots/2024-09-01.r1.jsonl.zst",
@@ -250,7 +260,7 @@
     {
       "version": "2024-08-01.r1",
       "effectiveFrom": "2024-08-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 372672,
       "hash": "sha256:20a1930de9ddc11313a69b1bc5293b63463103f50edf31e089a7762a74b7a9dd",
       "url": "snapshots/2024-08-01.r1.jsonl.zst",
@@ -260,7 +270,7 @@
     {
       "version": "2024-07-01.r1",
       "effectiveFrom": "2024-07-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 373194,
       "hash": "sha256:2fa11d1c2a8d86c6bbc07dafd6c22f15543b441b95b222af6e2b8fe4f295f30e",
       "url": "snapshots/2024-07-01.r1.jsonl.zst",
@@ -270,7 +280,7 @@
     {
       "version": "2024-06-01.r1",
       "effectiveFrom": "2024-06-01",
-      "publishedAt": "2026-06-10T00:57:12+09:00",
+      "publishedAt": "2026-07-16T12:21:45+09:00",
       "size": 372174,
       "hash": "sha256:c8253944b64e4afaa3fcedea20125f921af874555f1c56ab7ef720041d252661",
       "url": "snapshots/2024-06-01.r1.jsonl.zst",
@@ -478,6 +488,14 @@
       "hash": "sha256:08a8f093fae3845171a2a0d63b43d524bf9e1d56e76ece6a59eed50c1cc43d02",
       "url": "deltas/2026-04-01.r1__2026-05-01.r1.jsonl.zst",
       "operationCount": 43668
+    },
+    {
+      "fromVersion": "2026-06-01.r1",
+      "toVersion": "2026-07-01.r1",
+      "size": 600306,
+      "hash": "sha256:f3333d88a554c8a5306ffc5f921b3eb1dd818b9393bb617c8284c2798823f41a",
+      "url": "deltas/2026-06-01.r1__2026-07-01.r1.jsonl.zst",
+      "operationCount": 52596
     }
   ]
 }
