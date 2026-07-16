@@ -5,6 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   verify-and-deploy:
     runs-on: ubuntu-latest
@@ -42,6 +46,11 @@ jobs:
           mkdir -p _site/sync
           cp -r artifacts/* _site/sync/
           cp revocation.json _site/sync/revocation.json
+          # 클라이언트(op sync)는 revocation 을 <도메인>/revocation.json (루트) 에서 fetch 한다
+          # (internal/sync/revocation.go — Fetch(ctx, "revocation.json")). sync/ 사본은 감사용 유지.
+          cp revocation.json _site/revocation.json
+          # 앱 자체 업데이트 채널(tauri-plugin-updater): <도메인>/app/latest.json
+          if [ -d app ]; then cp -r app _site/app; fi
           {
             echo '<!doctype html><meta charset=utf-8><title>openpharm policy data</title>'
             echo '<h1>openpharm-update policy data CDN</h1>'
