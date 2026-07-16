@@ -38,6 +38,8 @@ jobs:
           mkdir -p _site/sync
           cp revocation.json _site/revocation.json
           cp -r artifacts/. _site/sync/
+          # 앱 자체 업데이트 채널(tauri-plugin-updater): <도메인>/app/latest.json
+          if [ -d app ]; then cp -r app _site/app; fi
           # 배포 확인용 인덱스(사람용) — 클라이언트는 사용하지 않는다.
           {
             echo "openpharm policy channel"

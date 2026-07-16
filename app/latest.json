@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "notes": "현재 배포 버전과 동일한 초기 스캐폴드 — 새 MSI 릴리스 시 version/platforms 를 갱신한다. url 은 GitHub Releases 자산, signature 는 tauri build 가 생성한 .sig 파일 내용.",
+  "pub_date": "2026-07-16T00:00:00Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "",
+      "url": "https://github.com/guinnessNet/openpharm-v2/releases/download/ui-v0.1.0/openpharm_0.1.0_x64_en-US.msi"
+    }
+  }
+}
