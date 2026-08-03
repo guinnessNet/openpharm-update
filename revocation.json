@@ -1,7 +1,7 @@
 {
   "spec": "openpharm.sync.revocation.v1",
-  "publishedAt": "2026-07-16T09:00:00+09:00",
-  "expiresAt": "2026-08-15T09:00:00+09:00",
+  "publishedAt": "2026-08-03T09:00:00+09:00",
+  "expiresAt": "2026-09-15T09:00:00+09:00",
   "revokedOperatorKeys": [
     {
       "keyId": "operator-2026-05",
@@ -18,5 +18,5 @@
       "validFrom": "2026-07-16T00:00:00+09:00"
     }
   ],
-  "signature": "ed25519:MKbr2dfL8oR4E88cGqrkEl12AW5zRic7Radcq2+ruEv+vCd6ri7pkKP1CEkRMW35+NrZ5tbrQH3STC0O2hFZDQ=="
+  "signature": "ed25519:hP96SvCGUu1TyTulU574ORM7+pq0KDbG53Ec6NJHOTVKX0n/xw+dsXwdvNvo3H70XRsqjqgx9/V12HhKnZ6DBg=="
 }
