@@ -2,11 +2,31 @@
   "spec": "openpharm.sync.manifest.v1",
   "channel": "drug_prices",
   "keyId": "operator-2026-07",
-  "latest": "2026-08-01.r2",
-  "minSupported": "2026-08-01.r2",
-  "published": "2026-10-18T10:30:08+09:00",
-  "signature": "ed25519:WtH6+ImGbfGDUTIyDTyTkZFovImRWFMVo6L+51I5y2NPGRq7dYSyTc/uwC4bamfrBvxznZIiDqKS3W4OzUlOBg==",
+  "latest": "2026-10-01.r1",
+  "minSupported": "2026-10-01.r1",
+  "published": "2026-10-18T14:02:04+09:00",
+  "signature": "ed25519:TVE+Nm1J1m65u4HacYy2Ed9h+wFs93xQhuHj7mtDFnopmsKj2enqqEztM/K1ThPVK0R/7hQ10rE3dmPnFHnHBQ==",
   "snapshots": [
+    {
+      "version": "2026-10-01.r1",
+      "effectiveFrom": "2026-10-01",
+      "publishedAt": "2026-10-18T14:02:04+09:00",
+      "size": 360908,
+      "hash": "sha256:1750f5e96e83b03285e1dfbd42fec35eff3350866b6e3fb85b2a7f80b76184c9",
+      "url": "snapshots/2026-10-01.r1.jsonl.zst",
+      "prevVersion": "2026-09-01.r1",
+      "prevHash": "sha256:ea4105b78ab431ab7ddcc2f053d744a0bb62065e4257d3561bb891b4c4c9bd9b"
+    },
+    {
+      "version": "2026-09-01.r1",
+      "effectiveFrom": "2026-09-01",
+      "publishedAt": "2026-10-18T14:02:03+09:00",
+      "size": 360474,
+      "hash": "sha256:ea4105b78ab431ab7ddcc2f053d744a0bb62065e4257d3561bb891b4c4c9bd9b",
+      "url": "snapshots/2026-09-01.r1.jsonl.zst",
+      "prevVersion": "2026-08-01.r2",
+      "prevHash": "sha256:63503c8cf8e103c922161ddd2a11c5249aa0e0e9e67b829392dcebeb5ffe32a4"
+    },
     {
       "version": "2026-08-01.r2",
       "effectiveFrom": "2026-08-01",
@@ -532,6 +552,22 @@
       "hash": "sha256:3f506adb8d01b10a5651f6ce5c4111627eaf2c888e8b9cb3927a5126e5976c49",
       "url": "deltas/2026-08-01.r1__2026-08-01.r2.jsonl.zst",
       "operationCount": 21954
+    },
+    {
+      "fromVersion": "2026-08-01.r2",
+      "toVersion": "2026-09-01.r1",
+      "size": 542694,
+      "hash": "sha256:fb514f944fd47278db461d08bbb6a5e9bab676c4e00a3e25750b16d70713c6c7",
+      "url": "deltas/2026-08-01.r2__2026-09-01.r1.jsonl.zst",
+      "operationCount": 43955
+    },
+    {
+      "fromVersion": "2026-09-01.r1",
+      "toVersion": "2026-10-01.r1",
+      "size": 543883,
+      "hash": "sha256:f87b6d85c94b46b679d89b9c36971d5cfa1eaa60461916ce0540233115ef5163",
+      "url": "deltas/2026-09-01.r1__2026-10-01.r1.jsonl.zst",
+      "operationCount": 44019
     }
   ]
 }
